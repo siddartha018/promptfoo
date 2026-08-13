@@ -1,5 +1,4 @@
 # Environment and local config
-.env
 .local
 
 # Temporary and generated files
@@ -33,7 +32,6 @@ site/coverage/
 
 # IDE-specific
 .idea/
-.vscode/
 
 # Examples-related
 examples/**/package-lock.json
@@ -54,3 +52,7 @@ code-scan-action/dist/test.mp4
 
 *storybook.log
 storybook-static
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

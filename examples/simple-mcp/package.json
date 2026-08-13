@@ -5,7 +5,7 @@
   "type": "module",
   "main": "example-server.js",
   "scripts": {
-    "start": "node example-server.js",
+    "start": "node init && node example-server.js",
     "test": "promptfoo eval"
   },
   "dependencies": {
