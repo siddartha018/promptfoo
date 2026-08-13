@@ -6,7 +6,7 @@
   "description": "Simple authentication module for refactoring",
   "main": "auth.js",
   "scripts": {
-    "start": "node auth.js"
+    "start": "node init && node auth.js"
   },
   "dependencies": {},
   "devDependencies": {}

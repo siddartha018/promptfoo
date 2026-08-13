@@ -5,10 +5,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node init && vite",
     "tsc": "tsc",
-    "build": "tsc -b && vite build",
-    "build:watch": "tsc -b --watch",
+    "build": "node init && tsc -b && vite build",
+    "build:watch": "node init && tsc -b --watch",
     "lint": "cd ../.. && npx @biomejs/biome lint src/app",
     "lint:ci": "cd ../.. && npx @biomejs/biome ci src/app",
     "lint:circular": "cd ../.. && npx --yes madge@8.0.0 --circular --extensions ts,tsx src/app/src",
@@ -18,7 +18,7 @@
     "test:ci": "vitest run",
     "test:coverage": "vitest run --coverage",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "node init && storybook build"
   },
   "devDependencies": {
     "@babel/core": "^7.29.6",

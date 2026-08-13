@@ -6,7 +6,7 @@
   "description": "A simple Express API for testing Claude Agent SDK",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node init && node index.js"
   },
   "dependencies": {
     "express": "^5.2.1"
